@@ -1,9 +1,0 @@
-Questions:
-
-1. How many features are there as input for one picture in the SS dataset? Is each pixel defined by an RGB value, such that one pixel is 3 inputs?
-
-2. What does it mean for the algorithm to be 'out of core'? This is mentioned in several places.
-
-3. In the second notebook, we use the test data in order to evaluate which degree of polynomial is best. I thought this was considered 'cheating' because you may pick a model that overfits that specific test data but does not generalize. This (I think) was the point of cross-validation, where we use training data to test and pseudogeneralize.
-
-4. How many more features are adding when the degree of the polynomial increases? It seems that it would be very, very fast because you need a term (feature) for every combination of features whose total degree is less than the overall 'degree'.
